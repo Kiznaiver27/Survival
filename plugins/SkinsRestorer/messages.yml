@@ -1,0 +1,69 @@
+PREFIX: '&e[&2XamSav&e] '
+HELP_SKIN_CLEAR: Skin limpia.
+HELP_SKIN_CLEAR_OTHER: Limpia la skin de otro jugador.
+HELP_SKIN_UPDATE: Actualiza tu skin.
+HELP_SKIN_UPDATE_OTHER: Actualiza la skin de otro jugador.
+HELP_SKIN_SET: Estableze la skin de otro jugador.
+HELP_SKIN_SET_OTHER: Establece la skin de otro jugador.
+HELP_SKIN_SET_OTHER_URL: Establece la skin con Image_url.png
+HELP_SR_RELOAD: Recarga los archivos de configuration.
+HELP_SR_STATUS: Comprueba los servicios API del plugin.
+HELP_SR_DROP: Elimina los datos del jugador o skin.
+HELP_SR_PROPS: Muestra las propiedades de la skin del jugador.
+HELP_SR_APPLY_SKIN: Vuelva a aplicar la skin para el player.
+HELP_SR_CREATECUSTOM: Crea una máscara personalizada para todo el servidor
+SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
+SYNTAX_SKINSET: ' <skin>'
+SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
+SYNTAX_SKINURL: ' <SkinUrl> [steve/slim]'
+SYNTAX_SKINUPDATE_OTHER: ' <target>'
+SYNTAX_SKINCLEAR_OTHER: ' <target>'
+COMPLETIONS_SKIN: <Skin>
+COMPLETIONS_SKINNAME: <SkinName>
+COMPLETIONS_SKINURL: <SkinUrl>
+PLAYER_HAS_NO_PERMISSION_SKIN: '&4Error&8: &cNo tienes permisos para esa Skin.'
+PLAYER_HAS_NO_PERMISSION_URL: '&4Error&8: &cNo tienes permisos para la Skin de esa URL.'
+SKIN_DISABLED: '&4Error&8: &cEsa Skin esta deshabilitada por el administrador.'
+SKINURL_DISALLOWED: '&4Error&8: &cEl administrador no ha permitido este dominio.'
+NOT_PREMIUM: '&4Error&8: &cNo existe ningun jugador Premium con ese nombre.'
+INVALID_PLAYER: '&4Error&8: &c%player no es valido.'
+SKIN_COOLDOWN: '&4Error&8: &cPodras volver a cambiar tu skin en &e%s &csegundos.'
+SKIN_CHANGE_SUCCESS: '&2Tu skin ha sido cambiada.'
+SKIN_CLEAR_SUCCESS: '&2Tu skin ha sido despejada.'
+SKIN_CLEAR_ISSUER: '&2Skin despejada por %player.'
+MS_UPDATING_SKIN: '&2Subiendo skin, por favor espera...(Esto puede llevar algo de tiempo.)'
+SUCCESS_CREATE_SKIN: '&2Skin %skin ha sido creada!'
+SUCCESS_UPDATING_SKIN: '&2Tu skin ha sido actualizada.'
+SUCCESS_UPDATING_SKIN_OTHER: '&2Skin actualizada por %player.'
+ERROR_UPDATING_SKIN: '&4Error&8: &cA ocurrido un error mientras se subia la skin. Por favor prueba mas tarde!'
+ERROR_UPDATING_URL: "&4Error&8: &cNo puedes actualizar skins personalizadas por URL ! \n&cSolicitar de nuevo\
+    \ usando /skin url"
+ERROR_UPDATING_CUSTOMSKIN: '&4Error&8: &cLa Skin no se puede actualizar porque es personalizada.'
+ERROR_INVALID_URLSKIN: "&4Error&8: &cSkin url invalida, \n&cPrueba otra vez\
+    \ haga clic derecho en su skin de imgur 'copiar direccion de imagen \n&cPara una guia vea: &c&oskinsrestorer.net/skinurl"
+ERROR_MS_FULL: '&4MS Error&8: &cSe agotó el tiempo de espera de la API mientras se cargaba su &cskin. Por favor prueba mas tarde.'
+ERROR_MS_GENERIC: '&4MS Error&8: &c%error%'
+GENERIC_ERROR: '&4Error&8: &cHa ocurrido un error mientras se solicitaba la Skin, Por favor prueba mas tarde!'
+WAIT_A_MINUTE: '&4Error&8: &cPor favor espera un minuto despues de solicitar una skin otra vez.'
+ERROR_NO_SKIN: '&4Error&8: &cEste jugador no tiene ninguna skin establecida.'
+SKINSMENU_OPEN: '&2Abriendo menu de skins...'
+SKINSMENU_TITLE_NEW: '&9Skins Menu - Pagina %page'
+SKINSMENU_NEXT_PAGE: '&a&l»&7 Siguiente Pagina&a&l »'
+SKINSMENU_PREVIOUS_PAGE: '&e&l«&7 Anterior Pagina&e&l «'
+SKINSMENU_REMOVE_SKIN: '&c&l[ &7Eliminar Skin&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Click para seleccionar esta skin'
+ADMIN_SET_SKIN: '&2Estableciste la skin de %player.'
+DATA_DROPPED: '&2Data dropped for %playerOrSkin %targets.'
+STATUS_OK: '&2Mojang API connection successful!'
+ALT_API_FAILED: '&4Error&8: &cSkin Data API is overloaded, please try again later!'
+MS_API_FAILED: '&4Error&8: &cMineSkin API is overloaded, please try again later!'
+NO_SKIN_DATA: '&4Error&8: &cNo skin data acquired! Does this player have a skin?'
+RELOAD: '&2La configuracion local ha sido recargada!'
+OUTDATED: "&¡Está ejecutando una versión desactualizada de SkinsRestorer!\n&cPor favor actualiza\
+    \ a la version mas reciende en Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+SR_LINE: '&7&m----------------------------------------'
+CUSTOM_HELP_IF_ENABLED: |4-
+      &2&lXamSav &7- &f&lv%ver%
+       &2/skin <skinname> &7-&f Cambia tu skin.
+        &2/skin update &7-&f Actualiza tu skin.
+        &2/skin clear &7-&f Limpia tu skin.
